@@ -10,6 +10,7 @@ public class Apriori {
     }
 
     public void aprioriProcess() {
+        //get the candidate itemsets of size 1
         Map<String, Integer> stepFrequentSetMap = new HashMap<>();
         System.out.println("\n===================== The 1 time scan of frequent set======================" + "\n");
 
@@ -25,6 +26,7 @@ public class Apriori {
 
         int i = 1;
 
+        //When frequent itemset is empty, get out of the loop
         while (stepFrequentSetMap != null && stepFrequentSetMap.size() > 0) {
 
             i++;
@@ -67,6 +69,7 @@ public class Apriori {
         Map<String, Integer> minCandidateMapSet = new HashMap<>();
         Set<String> frequentSet = frequentMapSet.keySet();
 
+        //join operation
         for (String frequentItemList1 : frequentSet) {
             for (String frequentItemList2 : frequentSet) {
                 String[] itemArray1 = frequentItemList1.split(" ");
@@ -74,6 +77,8 @@ public class Apriori {
 
                 String linkString = "";
                 boolean canConnect = true;
+                // k-1 items must be same
+                // the last item of itemArray1 must less than the last item of itemArray2
                 for (int i = 0; i < itemArray1.length - 1; i++) {
                     if (itemArray1[i].equals(itemArray2[i])) {
                         canConnect = false;
@@ -84,6 +89,7 @@ public class Apriori {
                     linkString = frequentItemList1 + itemArray2[itemArray2.length - 1] + " ";
                 }
 
+                //prune operation
                 boolean hasInfrequentSubSet = false;
                 if (linkString != "") {
                     String[] itemArray = linkString.split(" ");
@@ -107,6 +113,8 @@ public class Apriori {
                 }
             }
         }
+
+        //calculate support number of candidate itemsets
         Set<String> minCandidateSet = minCandidateMapSet.keySet();
         for (String itemList : minCandidateSet) {
             String[] strings = itemList.split(" ");
