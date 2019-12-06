@@ -5,8 +5,8 @@ public class Apriori {
     private static double SUPPORT_PERCENT;
 
     public Apriori(List<String> transactionData, double support) {
-        this.data2DList = transactionData;
-        this.SUPPORT_PERCENT = support;
+        data2DList = transactionData;
+        SUPPORT_PERCENT = support;
     }
 
     public void aprioriProcess() {
