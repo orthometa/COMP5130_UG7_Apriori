@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56ad8829-32f8-4656-8b39-36de6f5ed0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apriori.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apriori.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TranscationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransactionReader.java" afterDir="false" />
-    </list>
+    <list default="true" id="56ad8829-32f8-4656-8b39-36de6f5ed0fc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,12 +77,24 @@
       <updated>1575583210986</updated>
       <workItem from="1575583213351" duration="5224000" />
       <workItem from="1575685673071" duration="1990000" />
-      <workItem from="1575847481054" duration="2464000" />
+      <workItem from="1575847481054" duration="2682000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;Add some optimization for the string to StringBuilder and add checking in main for validity of file path&quot;">
+      <created>1575850157829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575850157829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Add some optimization for the string to StringBuilder and add checking in main for validity of file path&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add some optimization for the string to StringBuilder and add checking in main for validity of file path&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1575848087149">
@@ -99,6 +105,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1575849222153" />
+    <state x="577" y="113" key="CommitChangelistDialog2" timestamp="1575850156622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1575850156622" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1575850052191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -135,6 +145,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1575588868157" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575850169312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1575850169312" />
     <state x="396" y="322" key="com.intellij.ide.util.TipDialog" timestamp="1575847480616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
